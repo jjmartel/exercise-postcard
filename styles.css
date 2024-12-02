@@ -1,0 +1,68 @@
+body {
+	background: black;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 500px;
+	margin: 0%;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: none;
+}
+.body-left,
+.body-right {
+	padding: 10;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: 10;
+}
+es
+You must successfully complete and test this step before continuing to the next one. Carefully read the instructions and ask for feedback if you need any help.
+12.1 Body Content
+¿Qué elementos deben estar en el postcard-body? ¿Puedes identificarlos de acuerdo a los <tags> ya mencionados?
+
+💻 Posibles opciones: Headings (h1, h2, h3, etc.), Párrafos, Imágenes, Divs, Inputs, Checkbox, etc.
+
+Postcard body content
+
+Ahora debemos crear los tags HTML necesarios para terminar el contenido de tu .postcard y aplicar los estilos que faltan para que se parezca a la imagen.
+
+📝 Instrucciones:
+El primer <p> no necesita margin-top (margen superior), así que debes eliminarlo.
+.body-left p:first-child {
+	margin-top: x;
+}
+El .body-left y .body-right deben tener un padding (relleno) para separar el texto del borde de las cajas. .body-left,
+.body-right {
+	padding: x;
+}
+losinputs(entradas)debentenerunborder-bottom(borde de abajo)grey (gris), pero no deben tener bordes a los lados ni arriba, así que prueba con border: none
+	y luego border-bottom. input {
+	border: x;
+	border-bottom: x;
+}
