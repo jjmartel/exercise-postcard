@@ -61,8 +61,8 @@ El .body-left y .body-right deben tener un padding (relleno) para separar el tex
 .body-right {
 	padding: x;
 }
-losinputs(entradas)debentenerunborder-bottom(borde de abajo)grey (gris), pero no deben tener bordes a los lados ni arriba, así que prueba con border: none
-	y luego border-bottom. input {
+losinputs(entradas)debentenerunborder-bottom(borde de abajo)grey(gris),peronodebentenerbordesalosladosniarriba,asíquepruebaconborder: none y luego
+	border-bottom. input {
 	border: x;
 	border-bottom: x;
 }
